@@ -1,4 +1,4 @@
-# ButterworthWindow
+# Butterworth Window
 A counter-intuitive approach. Using a butterworth filter to develop a butterworth window. Implemented and evaluated a novel windowing method (in comparison to conventional windowing methods such as Hanning, Hamming, and Kaiser). This window was designed based on the Butterworth filter for power spectral density estimation of digital signals.
 
 The two critical elements in evaluating any window function are the 3-dB bandwidth and the sidelobe attenuation. In commonly used window functions such as Hanning and Hamming, we have no control over 3-dB bandwidth and sidelobe attenuation for a given window length. On the other hand, we can reduce the window bandwidth for other window functions like Kaiser, Gaussian, and Chebyshev and improve the spectral resolution. However, it will reduce the sidelobe attenuation, and will not avoid undesired spectral leakages. Based on the mentioned trade-off, it is also possible to increase the sidelobe attenuation at the expense of wider 3-dB bandwidth.
