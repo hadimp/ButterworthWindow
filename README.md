@@ -6,6 +6,8 @@ The two critical elements in evaluating any window function are the 3-dB bandwid
 This project aims to develop a windowing method based on the Butterworth filter, as discussed in “A Flexible Window Function for Spectral Analysis” paper by Tae Hyun Yoon and Eon Kyeong Joo. The paper claims that this window will give us control over both the 3-dB bandwidth and the sidelobe attenuation, respectively. As a result, it will take care of the existing trade-off. In this study, I will try to examine whether this method can solve the discussed trade-off issue in spectral analysis of windows or not.
 
 
+
+
 Reference: 
 
 T. H. Yoon and E. K. Joo, "A Flexible Window Function for Spectral Analysis [DSP Tips & Tricks]," in IEEE Signal Processing Magazine, vol. 27, no. 2, pp. 139-142, March 2010, doi: 10.1109/MSP.2009.935422.
